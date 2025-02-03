@@ -7,6 +7,7 @@ const {
 
 const chalk = require('chalk');
 
+
 describe('readFileContent', () => {
     it('should read content of declaration.txt', () => {
         const content = readFileContent();
